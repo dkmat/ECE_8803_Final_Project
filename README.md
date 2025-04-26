@@ -28,7 +28,7 @@ We implement and evaluate multiple deep learning models to address key challenge
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 - Per-class F1 score comparisons across models
 - Training loss curves
