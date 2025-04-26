@@ -15,6 +15,12 @@ We implement and evaluate multiple deep learning models to address key challenge
 | `Hybrid_model.ipynb`    | ResNet50                   | Image + Tabular (BCVA, CST)            | Combined OCT images with clinical metadata |
 | `Best_model.ipynb`      | ResNet101 (partially frozen) | Image + Tabular (BCVA, CST) + Deep MLP | Final model with enhanced feature extraction |
 
+- `Model_Comparison.ipynb`  
+  → Compares all model performances (Baseline, Focal Loss, Hybrid, ResNet101) across multiple evaluation metrics and per-biomarker analysis.
+
+- `test_predictions.csv`  
+  → Predicted biomarker results for the OLIVES test set generated from the best (ResNet101) model.
+
 ## Methods Overview
 
 - **Dataset**: OLIVES dataset (OCT retinal scans + BCVA, CST metadata)
